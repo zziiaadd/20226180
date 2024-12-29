@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/KarimYasser15/20216081'
+                git branch: 'main', url: 'https://github.com/zziiaadd/20226180'
             }
         }
         stage('Set Permissions') {
